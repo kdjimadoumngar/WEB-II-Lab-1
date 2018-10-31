@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Gender"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="University"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUniversity"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Campus"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etCampus"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bLogout"
+        android:text="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
